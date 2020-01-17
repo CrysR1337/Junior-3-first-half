@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings version="2">
+  <category name="cplex">
+    <setting name="threads" value="8"/>
+    <setting name="numericalemphasis" value="true"/>
+    <setting name="aggind" value="1"/>
+    <setting name="workmem" value="4096.0"/>
+  </category>
+</settings>
