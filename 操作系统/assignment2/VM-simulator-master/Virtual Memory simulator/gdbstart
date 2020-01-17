@@ -1,0 +1,8 @@
+define plist
+  printf "NODE::::: \t size::::: \t  NEXT:::::: \t PREV\n"	
+  set var $n = $arg0
+  while $n
+    printf "%p (%d)\t \n %p (%d)\n ", $n, $n->frame, $n->next, $n->next->frame
+    set var $n = $n->next
+  end
+end
